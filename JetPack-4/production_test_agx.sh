@@ -96,6 +96,7 @@ function test_menu {
 		echo "15) Digital Out Test"
 		echo "16) Digital In-0 Test"
 		echo "17) Digital In-1 Test"
+		echo "18) Fan Test"
 		read -p "Type the test number (or quit) [1/.../q]: " choice
 		echo ""
 
@@ -190,6 +191,10 @@ function test_menu {
 			17 )
 				echo "Digital In-1 Test"
 				sudo gnome-terminal -- $SCRIPTS_FOLDER/test_digital_in1_agx.sh
+				;;
+			18 )
+				echo "Fan Test"
+				sudo gnome-terminal -- $SCRIPTS_FOLDER/test_fan.sh
 				;;
 			[Qq]* )
 				echo "Quitting ..."
