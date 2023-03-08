@@ -146,6 +146,8 @@ function test_menu {
 				gnome-terminal -- $SCRIPTS_FOLDER/test_csi_4_agx.sh
 				sleep 2
 				gnome-terminal -- $SCRIPTS_FOLDER/test_csi_5_agx.sh
+				sleep 2
+				gnome-terminal -- $SCRIPTS_FOLDER/test_csi_6_agx.sh
 				;;
 			8 )
 				sudo gnome-terminal -- watch -n 0.1 lspci
