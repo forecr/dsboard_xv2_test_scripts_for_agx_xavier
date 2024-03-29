@@ -143,17 +143,17 @@ function test_menu {
 				;;
 			7 )
 				echo "CSI Test"
-				gnome-terminal -- $SCRIPTS_FOLDER/test_csi_1_agx.sh
+				gnome-terminal -- $SCRIPTS_FOLDER/test_csi0_agx.sh
 				sleep 2
-				gnome-terminal -- $SCRIPTS_FOLDER/test_csi_2_agx.sh
+				gnome-terminal -- $SCRIPTS_FOLDER/test_csi1_agx.sh
 				sleep 2
-				gnome-terminal -- $SCRIPTS_FOLDER/test_csi_3_agx.sh
+				gnome-terminal -- $SCRIPTS_FOLDER/test_csi2_agx.sh
 				sleep 2
-				gnome-terminal -- $SCRIPTS_FOLDER/test_csi_4_agx.sh
+				gnome-terminal -- $SCRIPTS_FOLDER/test_csi3_agx.sh
 				sleep 2
-				gnome-terminal -- $SCRIPTS_FOLDER/test_csi_5_agx.sh
+				gnome-terminal -- $SCRIPTS_FOLDER/test_csi4_agx.sh
 				sleep 2
-				gnome-terminal -- $SCRIPTS_FOLDER/test_csi_6_agx.sh
+				gnome-terminal -- $SCRIPTS_FOLDER/test_csi5_agx.sh
 				;;
 			8 )
 				sudo gnome-terminal -- watch -n 0.1 lspci
